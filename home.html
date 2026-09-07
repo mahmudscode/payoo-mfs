@@ -28,37 +28,45 @@
                         Log Out
                     </button>
                 </header>
+                <!-- dashboard -->
+
                 <section id="dashboard" class="bg-white px-4 pb-5 pt-7">
                     <h1 class="text-xl font-bold tracking-tight text-slate-900">&#128293; Welcome to Payooo!</h1>
                     <p class="mt-3 text-sm leading-6 text-slate-500">Enjoy easy and convenient financial services with
                         us.<br>Cashout charge is low and</p>
 
                     <div class="mt-5 grid grid-cols-3 gap-3">
+                        <!-- add money button -->
                         <button type="button" data-screen="add-money"
                             class="flex h-20 flex-col items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs text-slate-600">
                             <span class="text-xl" aria-hidden="true">&#128176;</span>
                             Add Money
                         </button>
+                        <!-- cash out button -->
                         <button type="button" data-screen="cash-out"
                             class="flex h-20 flex-col items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs text-slate-600">
                             <span class="text-xl" aria-hidden="true">&#128184;</span>
                             Cashout
                         </button>
+                        <!-- transfer money button -->
                         <button type="button" data-screen="transfer-money"
                             class="flex h-20 flex-col items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs text-slate-600">
                             <span class="text-xl" aria-hidden="true">&#128181;</span>
                             Transfer Money
                         </button>
+                        <!-- get bonus button -->
                         <button type="button" data-screen="get-bonus"
                             class="flex h-20 flex-col items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs text-slate-600">
                             <span class="text-xl" aria-hidden="true">&#128176;</span>
                             Get Bonus
                         </button>
+                        <!-- pay bill button -->
                         <button type="button" data-screen="pay-bill"
                             class="flex h-20 flex-col items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs text-slate-600">
                             <span class="text-xl" aria-hidden="true">&#128179;</span>
                             Pay Bill
                         </button>
+                        <!-- transactions button -->
                         <button type="button" data-screen="transactions"
                             class="flex h-20 flex-col items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs text-slate-600">
                             <span class="text-xl" aria-hidden="true">&#128181;</span>
@@ -66,7 +74,8 @@
                         </button>
                     </div>
                 </section>
-                <section id="add-money-card" class="bottom-card bg-slate-100 px-4 pb-6 pt-5">
+                <!-- add money card -->
+                <section id="add-money-card" class="bottom-card hidden bg-slate-100 px-4 pb-6 pt-5">
                     <h2 class="mb-5 text-base font-bold text-slate-800">Add Money</h2>
 
                     <form id="add-money-form" class="rounded-2xl bg-white p-4">
